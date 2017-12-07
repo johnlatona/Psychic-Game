@@ -1,0 +1,85 @@
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	background-image: url(https://cdn.powerofpositivity.com/wp-content/uploads/2015/05/psychic-ability.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: Helvetica, sans-serif;
+}
+
+body {
+	color: white;
+}
+
+h1 {
+	font-size: 8vw;
+}
+
+h2 {
+	font-size: 4vw;
+}
+
+h3 {
+	font-size: 3vw;
+}
+
+.header {
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 6vw;
+	width: 100%;
+	text-align: center;
+	color: rgba(255, 255, 255, 0.7);
+}
+
+.click{
+	opacity: 1.0;
+}
+
+#headingBreak {
+	color: white;
+	margin-top: 3vw;
+	margin-bottom: 3vw;
+}
+
+#game-content {
+	position: absolute;
+	left: 5%;
+	width: 90%;
+	margin-right: 5vw;
+	margin-top: 8vw;
+	margin-bottom: 8vw;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 6vw;
+	text-align: center;
+	color: rgba(255, 255, 255, 0.7);
+}
+
+.textbox {
+	position: absolute;
+	left: 5%;
+	width: 90%;
+	margin-right: 5vw;
+	margin-top: 8vw;
+	margin-bottom: 8vw;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 8vw 4vw 8vw 4vw;
+	text-align: center;
+	color: rgba(255, 255, 255, 0.7);
+	cursor: pointer;
+}
+
+
+#wins, #losses, #guesses-left, #guesses-so-far {
+	font-size: 3.5vw;
+}
+
+@media screen and (max-width: 1070px) {
+	html {
+		background-size: cover;
+		background-position: center center;
+		background-repeat: no-repeat;
+	}
+}

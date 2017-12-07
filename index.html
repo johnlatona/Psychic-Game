@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Psychic Game</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	</head>
+	<body>
+		<div class="header">
+			<h1 id="title">The Psychic Game</h1>
+			<hr id="headingBreak">
+			<h2>Guess what letter I'm thinking of...</h2>
+		</div>
+
+		<div class="textbox" id="initialBox">
+			<h2 class="click">CLICK HERE TO PLAY!</h2>
+		</div>
+		<div class="textbox" id="gameOverMsg">
+			<br>
+			<br>
+			<h2 class="click">CLICK HERE TO PLAY AGAIN!</h2>
+		</div>
+		<div id="game-content">
+			<h3 class="game-info">Wins: <span id="wins">0</span></h3>
+			<br>
+			<h3 class="game-info">Losses: <span id="losses">0</span></h3>
+			<br>
+			<h3 class="game-info">Guesses Left: <span id="guesses-left">9</span></h3>
+			<br>
+			<h3 class="game-info">Your Guesses So Far: <span id="guesses-so-far"></span></h3>
+		</div>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script type="text/javascript" src="assets/javascript/game.js"></script>
+	</body>
+</html>
